@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+  <display-name>EMP</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+   <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddEmp</servlet-name>
+    <servlet-class>com.AddEmp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEmp</servlet-name>
+    <url-pattern>/AddEmp</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>AddInsurance</servlet-name>
+    <servlet-class>com.AddInsurance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddInsurance</servlet-name>
+    <url-pattern>/AddInsurance</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>InsertRecord</servlet-name>
+    <servlet-class>com.InsertRecord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertRecord</servlet-name>
+    <url-pattern>/InsertRecord</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>DeleteRecord</servlet-name>
+    <servlet-class>com.DeleteRecord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteRecord</servlet-name>
+    <url-pattern>/DeleteRecord</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>AssignEmployee</servlet-name>
+    <servlet-class>com.AssignEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AssignEmployee</servlet-name>
+    <url-pattern>/AssignEmployee</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddHRAttendance</servlet-name>
+    <servlet-class>com.AddHRAttendance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddHRAttendance</servlet-name>
+    <url-pattern>/AddHRAttendance</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>EditEmp</servlet-name>
+    <servlet-class>com.EditEmp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditEmp</servlet-name>
+    <url-pattern>/EditEmp</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddEmptoProject</servlet-name>
+    <servlet-class>com.AddEmptoProject</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEmptoProject</servlet-name>
+    <url-pattern>/AddEmptoProject</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <servlet-class>com.DeleteEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployee</servlet-name>
+    <url-pattern>/DeleteEmployee</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GiveRatings</servlet-name>
+    <servlet-class>com.GiveRatings</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GiveRatings</servlet-name>
+    <url-pattern>/GiveRatings</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddManagerAttendance</servlet-name>
+    <servlet-class>com.AddManagerAttendance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddManagerAttendance</servlet-name>
+    <url-pattern>/AddManagerAttendance</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <servlet-name>EditPersonalInfo</servlet-name>
+    <servlet-class>com.EditPersonalInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPersonalInfo</servlet-name>
+    <url-pattern>/EditPersonalInfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditDependentInfo</servlet-name>
+    <servlet-class>com.EditDependentInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditDependentInfo</servlet-name>
+    <url-pattern>/EditDependentInfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ApplyLeave</servlet-name>
+    <servlet-class>com.ApplyLeave</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApplyLeave</servlet-name>
+    <url-pattern>/ApplyLeave</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddEmpAttendance</servlet-name>
+    <servlet-class>com.AddEmpAttendance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEmpAttendance</servlet-name>
+    <url-pattern>/AddEmpAttendance</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ApproveLeaves</servlet-name>
+    <servlet-class>com.ApproveLeaves</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApproveLeaves</servlet-name>
+    <url-pattern>/ApproveLeaves</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
